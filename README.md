@@ -14,10 +14,10 @@ The dataset contained information of over 3000 patients with different medical h
 * To avoid time consumption on providing patients with CHD treatment ,when actually they don't have any. Type I error should be low, i.e. High Precision is desired.
 * To treat patients with actual risk of CHD, there should be a balance between precision & recall. i.e. High F1-score is desirable , since it punishes the extreme values more.
 * The models which provide the above desired results are as follows :
-1. **Recall :** k-Nearest Neighbors
-2. **Precision :** Support Vector Machines
-3. **F1-score :** Random Forest
-4. **Test Accuracy :** Random Forest
+1. **Recall :**  k-Nearest Neighbors
+2. **Precision :**  Support Vector Machines
+3. **F1-score :**  Random Forest
+4. **Test Accuracy :**  Random Forest
 
 * Age is the deciding factors for the patients mentioned in the dataset, followed by heart_rate, cigerettes per day and cholestrol level.
 * More focus should be given on the above mentioned features of the patients attending for treatment.
